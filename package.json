@@ -1,6 +1,6 @@
 {
   "name": "@fdorantesm/react-skill-icons",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "React components for skillicons.dev by tandpfun",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -10,10 +10,6 @@
     "build": "tsc",
     "pregenerate": "rimraf src/components src/index.ts",
     "generate": "ts-node -P tsconfig.generate.json -r tsconfig-paths/register scripts/generate.ts"
-  },
-  "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
   },
   "bugs": {
     "url": "https://github.com/fdorantesm/react-skill-icons/issues",
